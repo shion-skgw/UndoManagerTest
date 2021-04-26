@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0539C8A526338EA700F89115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539C8A426338EA700F89115 /* AppDelegate.swift */; };
-		0539C8A726338EA700F89115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539C8A626338EA700F89115 /* SceneDelegate.swift */; };
 		0539C8A926338EA700F89115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539C8A826338EA700F89115 /* ViewController.swift */; };
-		0539C8AC26338EA700F89115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0539C8AA26338EA700F89115 /* Main.storyboard */; };
 		0539C8AE26338EAA00F89115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0539C8AD26338EAA00F89115 /* Assets.xcassets */; };
 		0539C8B126338EAA00F89115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0539C8AF26338EAA00F89115 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		0539C8A126338EA700F89115 /* UndoManagerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UndoManagerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0539C8A426338EA700F89115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0539C8A626338EA700F89115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0539C8A826338EA700F89115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0539C8AB26338EA700F89115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0539C8AD26338EAA00F89115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0539C8B026338EAA00F89115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0539C8B226338EAA00F89115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				0539C8A426338EA700F89115 /* AppDelegate.swift */,
-				0539C8A626338EA700F89115 /* SceneDelegate.swift */,
 				0539C8A826338EA700F89115 /* ViewController.swift */,
-				0539C8AA26338EA700F89115 /* Main.storyboard */,
 				0539C8AD26338EAA00F89115 /* Assets.xcassets */,
 				0539C8AF26338EAA00F89115 /* LaunchScreen.storyboard */,
 				0539C8B226338EAA00F89115 /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				0539C8B126338EAA00F89115 /* LaunchScreen.storyboard in Resources */,
 				0539C8AE26338EAA00F89115 /* Assets.xcassets in Resources */,
-				0539C8AC26338EA700F89115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,21 +132,12 @@
 			files = (
 				0539C8A926338EA700F89115 /* ViewController.swift in Sources */,
 				0539C8A526338EA700F89115 /* AppDelegate.swift in Sources */,
-				0539C8A726338EA700F89115 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0539C8AA26338EA700F89115 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0539C8AB26338EA700F89115 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0539C8AF26338EAA00F89115 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.skgw.UndoManagerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.skgw.UndoManagerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
